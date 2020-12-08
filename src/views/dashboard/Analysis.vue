@@ -40,7 +40,7 @@ export default {
   data () {
     return {
       url: {
-        importExcelUrl: 'sys/role/importExcel'
+        importExcelUrl: 'import/importPanelOrGroup'
       }
     }
   },
