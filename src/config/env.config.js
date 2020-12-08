@@ -1,6 +1,6 @@
 const DEV_BASE_API = '/'
 const TEST_BASE_API = ''
-const PRO_BASE_API = '/assistant'
+const PRO_BASE_API = ''
 const envConfig = {
   dev: {
     baseApi: DEV_BASE_API

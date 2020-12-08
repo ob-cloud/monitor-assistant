@@ -25,7 +25,7 @@ export default {
   menu: {
     locale: true
   },
-  title: '客控助手',
+  title: '校园监控助手',
   logo: 'logo.svg',
   pwa: false,
   iconfontUrl: '',
