@@ -69,7 +69,7 @@ const user = {
             'keepAlive': false,
             'internalOrExternal': false,
             'icon': 'home',
-            'title': '首页'
+            'title': '组配置'
           },
           'name': 'dashboard-analysis',
           'id': '9502685863ab87f0ad1134142788a385'
