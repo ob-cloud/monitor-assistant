@@ -97,7 +97,7 @@ export default {
         console.log(info.file, info.fileList)
       }
       if (info.file.status === 'done') {
-        if (info.file.response.success) {
+        if (info.file.response.status === 0) {
           this.$message.success(`${info.file.name} 文件上传成功`)
           this.loadData()
         } else {
