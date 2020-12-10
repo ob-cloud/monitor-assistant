@@ -55,7 +55,7 @@ export default {
   data () {
     return {
       url: {
-        importExcelUrl: 'import/importPanelOrGroup'
+        importExcelUrl: 'consumer/import/importPanelOrGroup'
       },
       type: 'panel',
       labelCol: {
