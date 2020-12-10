@@ -86,8 +86,8 @@ export default {
     beforeUpload (file) {
       var fileType = file.type
 
-      if (fileType.indexOf('sheet') < 0) {
-        this.$message.warning('请上传 excel 文件')
+      if (fileType.indexOf('text') < 0) {
+        this.$message.warning('请上传 txt 文件')
         return false
       }
     },
