@@ -39,8 +39,8 @@ name: 'SimpleLogin',
     return {
       LoginForm: this.$form.createForm(this),
       LoginRules: {
-        username: [ 'username', { initialValue: 'skz', rules: [{ required: true, message: '请输入帐户名或邮箱地址' }, { validator: this.handleUsernameOrEmail }], validateTrigger: ['blur', 'change'] } ],
-        password: [ 'password', { initialValue: '1qaz2wsx_', rules: [{ required: true, message: '请输入密码' }], validateTrigger: 'blur' } ]
+        username: [ 'username', { initialValue: '', rules: [{ required: true, message: '请输入帐户名或邮箱地址' }, { validator: this.handleUsernameOrEmail }], validateTrigger: ['blur', 'change'] } ],
+        password: [ 'password', { initialValue: '', rules: [{ required: true, message: '请输入密码' }], validateTrigger: 'blur' } ]
       },
       state: {
         time: 60,
